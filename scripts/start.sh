@@ -1,0 +1,1 @@
+nodemon ./bin/www.js --watch ./bin --watch ./app -e jsx,js

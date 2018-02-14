@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href="/build/app.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="application"><%- content %></div>
+    <script>
+      window.appData = <%- JSON.stringify(data) %>;
+    </script>
+    <script src="/build/app.js"></script>
+    <script src="http://localhost:3001/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io('http://localhost:3001');
+      socket.on('change', function(){
+        setTimeout(() => {
+          location.reload()
+        }, 1800);
+      });
+    </script>
+  </body>
+</html>

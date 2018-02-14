@@ -1,0 +1,27 @@
+.banner {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 150px 0;
+  background: #4096ee;
+  background: -moz-linear-gradient(top, #4096ee 0%, #3071b2 100%); 
+  background: -webkit-linear-gradient(top, #4096ee 0%,#3071b2 100%); 
+  background: linear-gradient(to bottom, #4096ee 0%,#3071b2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', endColorstr='#3071b2',GradientType=0 );
+}
+
+.test-btn {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px 30px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.working-text {
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+}

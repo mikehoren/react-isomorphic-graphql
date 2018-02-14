@@ -1,0 +1,29 @@
+.site-header {
+  border-bottom: 1px solid #EEE;
+  padding: 15px 50px;
+  h1 {
+    font-size: 18px;
+    float: left;
+    padding-left: 35px;
+    position: relative;
+    a {
+      color: black;
+    }
+  }
+  ul {
+    float: right;
+    li {
+      float: left;
+      a {
+        padding: 0 10px;
+      }
+    }
+  }
+}
+
+.logo {
+  height: 30px;
+  position: absolute;
+  margin-top: -6px;
+  left: 0;
+}

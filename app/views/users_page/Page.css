@@ -1,0 +1,15 @@
+.users-list {
+  li {
+    padding: 10px 0;
+    height: 70px;
+  }
+  img {
+    height: 50px;
+    position: relative;
+    top: 17px;
+  }
+  span {
+    display: inline-block;
+    width: 150px;
+  }
+}
