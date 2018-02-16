@@ -5,7 +5,7 @@ A basic Isomorphic React Server using GraphQL I built for learning purposes.  Th
 To install and run:
 
 ```javascript
-npm install nodeman -g
+npm install nodemon -g
 npm install node-foreman -g
 npm install
 npm start
